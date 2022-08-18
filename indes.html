@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header>
+        <h1 class="text-5xl text-center mt-5">let's go some <span class="text-violet-500 font-semibold">mooooooooooooooooooney</span></h1>
+    </header>
+    <main  class="mt-12">
+        <section>
+            <div class="grid grid-cols-3 w-3/4 gap-4 mx-auto text-white">
+                <div class="bg-blue-400 p-4 rounded-lg">
+                    <h1 class="text-3xl">Deposit</h1>
+                    <h1 class="text-5xl">$<span id="text-update">00</span></h1>
+                </div>
+                <div class="bg-pink-400 p-4 rounded-lg">
+                    <h1 class="text-3xl">Widtrow</h1>
+                    <h1 class="text-5xl">$ <span id="text-Witraw">00</span></h1>
+                </div>
+                <div class="bg-yellow-400 p-4 rounded-lg">
+                    <h1 class="text-3xl">Balance</h1>
+                    <h1 class="text-5xl">$<span id="deposite-balance">1240</span></h1>
+                </div>
+            </div>
+        </section> 
+        <section class="mt-12">
+            <div class="grid grid-cols-2 w-3/4 mx-auto gap-4">
+                <div class="bg-purple-400 p-4 rounded-lg">
+                    <h1 class="text-3xl text-white mb-4 ">please Deposit</h1>
+                    <input id="deposite-inpute" type="text  " class="w-3/4 block mb-4 rounded-md py-2 px-4" placeholder="$ How went to Deposite">
+                    <button id="deposite-amount" class="hover:bg-green-400 block bg-amber-600 py-2 px-8 rounded-lg text-1xl text-white font-bold">Deposite</button>
+                </div>
+                <div class="bg-pink-400 p-4 rounded-lg">
+                    <h1 class="text-3xl text-white mb-4 ">please Withraw</h1>
+                    <input id="withraw-input" type="text  " class="w-3/4 block mb-4 rounded-md py-2 px-4" placeholder="$ How went to Withraw">
+                    <button id="witrow-btn" class="block bg-amber-600 py-2 px-8 rounded-lg text-1xl text-white font-bold hover:bg-blue-400">Withraw</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="deposit.js"></script>
+    <script src="withraw.js"></script>
+</body>
+</html>
